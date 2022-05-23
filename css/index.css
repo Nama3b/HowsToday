@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+html, body{
+	height: 100vh;
+	font-family: 'boto Condensed', sanRos-serif !important;
+	font-size: 18px !important;
+	background-size: auto;
+}
+
+.supa-hot{
+	background: linear-gradient(to top, rgba(0,0,0,0.9), rgba(0,0,0,0.2)), url(../img/457139.jpg) no-repeat center/cover;
+}
+.hot{
+	background: linear-gradient(to top, rgba(0,0,0,0.9), rgba(0,0,0,0.2)), url(../img/Phu-Quoc-Island_2.jpg) no-repeat center/cover;
+}
+.warm{
+	background: linear-gradient(to top, rgba(0,0,0,0.9), rgba(0,0,0,0.2)), url(../img/pexels-tanathip-rattanatum-2026454.jpg) no-repeat center/cover;
+}
+.supa-warm{
+	background: linear-gradient(to top, rgba(0,0,0,0.9), rgba(0,0,0,0.2)), url(../img/telegraph-co-uk-tai-sao-ban-nen-ghe-tham-da-nang-viet-nam-nam-2019-nay-012.jpg) no-repeat center/cover;
+}
+.cool{
+	background: linear-gradient(to top, rgba(0,0,0,0.9), rgba(0,0,0,0.2)), url(../img/1200px-Bright_Da_Nang_skyline_Unsplash.jpg) no-repeat center/cover;
+}
+.supa-cool{
+	background: linear-gradient(to top, rgba(0,0,0,0.9), rgba(0,0,0,0.2)), url(../img/2958370.jpg) no-repeat center/cover;
+}
+.cold{
+	background: linear-gradient(to top, rgba(0,0,0,0.9), rgba(0,0,0,0.2)), url(../img/forest-mountains-with-a-blue-filter-2560×1080.jpg) no-repeat center/cover;
+}
+.supa-cold{
+	background: linear-gradient(to top, rgba(0,0,0,0.9), rgba(0,0,0,0.2)), url(../img/pexels-marek-piwnicki-6022431.jpg) no-repeat center/cover;
+}
+
+.fade-in{
+	opacity: 0;
+	transition: opacity 2000ms ease-in-out;
+}
+.fade-in.appear{
+	opacity: 1;
+}
+.fa-cloudversify{
+	font-size: 66px;
+	color: white;
+	margin-left: 29px;
+	margin-top: 15px;
+}
+.sidebar {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+}	
+.sidebar a {
+  	padding: 8px 8px 8px 32px;
+  	margin-bottom: 9px;
+  	text-decoration: none;
+  	font-size: 19px;
+  	color: white;
+  	display: block;
+  	transition: 0.3s;
+    transition: all 0.35s ease-in-out;
+    transform: translateX(0);
+}
+.sidebar a:hover{
+	color: #c0c4cc;
+	text-decoration: none;
+}
+.input-form input{
+    width: 137px;
+    color: white;
+	border: 2px solid white;
+	margin-top: 4px;
+	padding-left: 5px;
+	border-radius: 10px;
+	background: none;
+	opacity: 0;
+	position: absolute;
+  	transition: all 1s ease-in-out;
+	transform: translateX(-229px);
+}
+.search-form:hover .input-form input{
+  	transform: translateX(0);
+  	visibility: visible;
+  	opacity: 1;
+}
+.search-form .input-form input:focus{
+  	transform: translateX(0);
+  	visibility: visible;
+  	opacity: 1;
+}
+.w3-dropdown-click{
+	margin: 7px 0 16px 16px;
+}
+.w3-dropdown-click button{
+	background: none;
+	border: none;
+	color: white;
+	margin-left: 10px;
+}
+.w3-dropdown-click:hover{
+	background: none !important;
+}
+.w3-dropdown-click i:hover{
+	color: #c0c4cc;
+}
+#dropdown{
+    background: none;
+    color: white;
+    top: 0;
+    left: 55px;
+    position: absolute;
+	backdrop-filter: blur(5px);
+}
+#dropdown i{
+	font-size: 19px;
+}
+.modal-content{
+	top: 188px;
+	background: none !important;
+	backdrop-filter: blur(5px);
+	color: white;
+}
+
+.nav-body i{
+	font-size: 25px;
+}
+.nav-body{
+	position: absolute;
+	top: 229px;
+	border-left: 3px solid white;
+}
+
+
+.main-body{
+	padding-left: 200px;
+}
+.header-section{
+	padding-top: 15px;
+}
+.header-section a{
+	color: white;
+	margin-right: 29px;
+	font-weight: bold;
+}
+.header-section a:hover{
+	text-decoration: none;
+	color: #c0c4cc;
+}
+.body-section{
+	padding-top: 180px;
+	color: white;
+}
+.body-section .city-content{
+	transform: translateX(-100px);
+	transition: transform 1500ms ease-out;
+}
+.body-section .city-content.appear{
+	transform: translateX(0);
+}
+.body-section .city-content h1{
+	font-size: 88px;
+}
+.body-section .detail-content{
+	border-left: 2px solid white;
+	height: fit-content;
+	transform: translateX(100px);
+	transition: transform 1500ms ease-out;
+}
+.body-section .col-4.appear{	
+	transform: translateX(0);
+}
+.more-desc{
+	padding: 0 !important;
+}
+.more-desc .col-4{
+	border-left: none !important;
+	padding: 0;
+}
